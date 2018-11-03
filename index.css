@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f6e2e3;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    border-bottom: #ff4444 3px solid;
+    background-color: #f7f7f7;
+    color: #8000ff;
+    padding-top: 30px;
+    min-height: 70px;
+  }
+  header #header-title {
+    position: relative;
+    display: inline;
+    vertical-align: top;
+  }
+  
+  header #header-img{
+    float: left;
+    display: inline;
+  }
+  #header-img img {
+    height: 55px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  .nav-link {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #2c7db2;
+  }
+  header #nav-bar {
+    display: inline;
+    position: relative;
+  }
+  #account {
+    text-align: center;
+  }
+  h2 {
+    color: #2c7db2;
+    text-align: center;
+  }
+  .button_1 {
+    height: 38px;
+    background: #fac9cf;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .button_1 a {
+    text-decoration: none;
+  }
+  a {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #account input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  #account input[type="password"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  input[textarea] {
+    padding: 10px;
+    height: 50px;
+    width: 250px;
+  }
+  .box {
+    display: inline-block;
+    border: solid 2px red;
+    align-items: center;
+    text-align: center;
+    max-width: 25%;
+    padding: 15px;
+    margin: 5px;
+  }
+  
+  .container #pricing {
+    text-align: center;
+    color: #ec7676;
+    font-weight: bold;
+  }
+  h3 {
+    color: purple;
+    font-weight: bold;
+  }
+  p {
+    font-style: italic;
+    color: #fc1e0d;
+  }
+  footer p {
+    color: violet;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #pricing {
+    margin-top: 70px;
+  }
+  @media(max-width: 768px){   
+          header #brandind,
+          #boxes .box{
+      float:none;
+          text-align:center;
+          width:100%;
+      }
+    }
